@@ -49,7 +49,7 @@ switch (key) {
             const SU1 = 46;
             const SU2 = 98;
             measure("filter", () => {
-                const result = array.every(i => i === SU1 || i === SU2);
+                const result = array.filter(i => i === SU1 || i === SU2);
             });
             measure("for", () => {
                 const arrayLength = array.length;
