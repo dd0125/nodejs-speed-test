@@ -1,0 +1,23 @@
+{
+  "name": "nodets-speed-test",
+  "version": "1.0.0",
+  "description": "for vs array speed test",
+  "author": "nobkz",
+  "license": "MIT",
+  "scripts": {
+    "tsc" : "tsc",
+    "build" : "tsc",
+    "every" : "NODE_FUNC=every node dist/index.js",
+    "filter" : "NODE_FUNC=filter node dist/index.js",
+    "find" : "NODE_FUNC=filter node dist/index.js",
+    "map" : "NODE_FUNC=map node dist/index.js",
+    "reduce" : "NODE_FUNC=reduce node dist/index.js",
+    "some" : "NODE_FUNC=some node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^14.6.2"
+  }
+}
